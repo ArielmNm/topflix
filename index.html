@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/headers.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/heroes.css">
+    <link rel="stylesheet" href="css/features.css">
+    <link rel="stylesheet" href="node_modules\bootstrap-icons\font\bootstrap-icons.min.css">
+    <title>TopFLIX</title>
+</head>
+<body>
+        <div class="container">
+            <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+              <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+                <span class="fs-4">TOPFLIX</span>
+              </a>
+        
+              <ul class="nav nav-pills">
+                <li class="nav-item"><a href="#home" class="nav-link active" aria-current="page">Home</a></li>
+                <li class="nav-item"><a href="#sessao" class="nav-link">Sessão</a></li>
+                <li class="nav-item"><a href="#filmes" class="nav-link">Filmes</a></li>
+                <li class="nav-item"><a href="#contato" class="nav-link">Contato</a></li>
+              </ul>
+            </header>
+          </div>
+
+          <div class="bg-dark text-secondary px-4 py-5 text-center" id="home">
+            <div class="py-5">
+              <h1 class="display-5 fw-bold text-white">TopFlix</h1>
+              <div class="col-lg-6 mx-auto">
+                <p class="fs-5 mb-4">TopFlix é um site de recomendação de filmes, mostrando atores, resumo do filme (Sem Spoilers), e claro deixando um OPINIÃO e nota.</p>
+                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                  <a href="#filmes"><button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold" href="#filmes" >Filmes</button></a>
+                  <a href="#sessao"><button type="button" class="btn btn-outline-light btn-lg px-4">Sessão</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="container px-4 py-5" id="sessao">
+            <h2 class="pb-2 border-bottom">SESSÃO</h2>
+            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+              <div class="feature col">
+                <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                  <i class="bi bi-emoji-dizzy-fill"></i>
+                </div>
+                <h3 class="fs-2 text-body-emphasis">AÇÃO</h3>
+                <p>Um filme de ação  é um gênero de filme que geralmente envolve uma história de protagonistas do bem contra antagonistas do mal, que resolvem suas disputas com o uso de força física</p>
+                <a href="#acao" class="icon-link">
+                  MOVIES
+                  <svg class="bi"><use xlink:href="#chevron-right"/></svg>
+                </a>
+              </div>
+              <div class="feature col">
+                <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                  <i class="bi bi-alarm"></i> 
+                </div>
+                <h3 class="fs-2 text-body-emphasis">FICÇÃO CIENTÍFICA</h3>
+                <p>Ficção científica cinematográfica é um gênero de filme que utiliza a ficção científica e a ficção especulativa com base científica de fenômenos que não são totalmente aceitos pela ciência moderna, como formas de vida extraterrestre, outros planetas, percepção extra-sensorial e viagem no tempo, juntamente com elementos futuristas tais como naves espaciais, robôs, ciborgues, rebelião das máquinas, viagens interestelares ou outras tecnologias.</p>
+                <a href="" class="icon-link">
+                  MOVIES
+                  <svg class="bi"><use xlink:href="#chevron-right"/></svg>
+                </a>
+              </div>
+              <div class="feature col">
+                <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                  <i class="bi bi-heart-pulse-fill"></i>
+                </div>
+                <h3 class="fs-2 text-body-emphasis">DRAMA</h3>
+                <p>Drama é uma categoria de ficção narrativa (ou semificção) que pretende ser mais séria do que humorística. Drama deste tipo é geralmente qualificado com termos adicionais que especificam seu supergênero, macrogênero ou microgênero particular, como novela (drama operístico), drama policial, drama político, drama jurídico, Drama histórico, drama doméstico, drama adolescente e comédia dramática (dramédia). Esses termos tendem a indicar um determinado cenário ou assunto, ou então qualificam o tom sério de um drama com elementos que encorajam uma gama mais ampla de estados de espírito.</p>
+                <a href="#drama" class="icon-link">
+                  MOVIES
+                  <svg class="bi"><use xlink:href="#chevron-right"/></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          
+  <section class="py-5 text-center container" id="filmes">
+    <div class="row py-lg-5">
+      <div class="col-lg-6 col-md-8 mx-auto">
+        <h1 class="fw-light">FILMES</h1>
+          <a href="#home" class="btn btn-primary my-2">HOME</a>
+          <a href="#sessao" class="btn btn-secondary my-2">Sessão</a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <div class="album py-5 bg-body-tertiary">
+    <div class="container">
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="images/arremessando.jpg" alt="">
+            <div class="card-body">
+              <p class="card-text">Um olheiro de basquete azarado encontra um jogador com um grande potencial e se esforça para mostrar ao mundo que os dois merecem chegar à NBA.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-body-secondary">1h57m</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="images/lobo.jpg" alt="">
+            <div class="card-body">
+              <p class="card-text">Jordan Belfort é um ambicioso corretor da bolsa de valores que cria um verdadeiro império, enriquecendo de forma rápida, porém ilegal. Ele e seus amigos mergulham em um mundo de excessos, mas seus métodos ilícitos despertam a atenção da polícia.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-body-secondary">3h</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="images/nao.jpg" alt="">
+            <div class="card-body">
+              <p class="card-text">Dois astrônomos medíocres descobrem que em poucos meses um meteorito destruirá o planeta Terra. A partir desse momento, eles devem alertar a humanidade por meio da imprensa sobre o perigo que se aproxima.
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-body-secondary">2h25m</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="images/espaço.jpg" alt="">
+            <div class="card-body">
+              <p class="card-text">O adolescente Gardner Elliot é o primeiro humano nascido em solo marciano. Mas ele deseja fazer uma viagem à Terra para conhecer a verdade sobre seu pai biológico, e sobre seu nascimento. Nesta jornada, ele tem o apoio de Tulsa.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-body-secondary">2h1m</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="images/free.jpg" alt="">
+            <div class="card-body">
+              <p class="card-text">Um caixa de banco preso a uma entediante rotina tem sua vida virada de cabeça para baixo quando descobre que é um personagem em um jogo interativo. Agora ele precisa aceitar sua realidade e lidar com o fato de que é o único que pode salvar o mundo.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-body-secondary">1h55m</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="images/inter.jpg" alt="">
+            <div class="card-body">
+              <p class="card-text">As reservas naturais da Terra estão chegando ao fim e um grupo de astronautas recebe a missão de verificar possíveis planetas para receberem a população mundial, possibilitando a continuação da espécie. Cooper é chamado para liderar o grupo e aceita a missão sabendo que pode nunca mais ver os filhos. Ao lado de Brand, Jenkins e Doyle, ele seguirá em busca de um novo lar.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-body-secondary">2h49m</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col" >
+          <div class="card shadow-sm">
+            <img src="images/velozes.jpg" alt="">
+            <div class="card-body">
+              <p class="card-text" id="#acao">Dom Toretto e sua família precisam lidar com o adversário mais letal que já enfrentaram. Alimentada pela vingança, uma ameaça terrível emerge das sombras do passado para destruir o mundo de Dom e todos que ele ama.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-body-secondary">2h21m</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="images/os.jpg" alt="">
+            <div class="card-body">
+              <p class="card-text">A equipe enfrenta um traficante de armas que comanda um enorme exército privado. Munidos com todas as armas inimagináveis, os Mercenários são a última linha de defesa do mundo.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-body-secondary">1h43m</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="images/jwick.jpg" alt="">
+            <div class="card-body">
+              <p class="card-text">O ex-assassino de aluguel John Wick é procurado pelo mundo todo e a recompensa por sua captura aumenta cada vez mais.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-body-secondary">2h49m</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+<div class="container" id="contato">
+  <footer class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"><a href="#home" class="nav-link px-2 text-body-secondary">Home</a></li>
+      <li class="nav-item"><a href="#sessao" class="nav-link px-2 text-body-secondary">Sessão</a></li>
+      <li class="nav-item"><a href="#filmes" class="nav-link px-2 text-body-secondary">Filmes</a></li>
+    </ul>
+    <p class="text-center text-body-secondary">&copy; 2023 Company, Inc</p>
+  </footer>
+</div>
+
+</body>
+</html>
